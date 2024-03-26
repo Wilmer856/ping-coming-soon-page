@@ -1,115 +1,48 @@
-# Frontend Mentor - Ping coming soon page solution
-
-This is a solution to the [Ping coming soon page challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/ping-single-column-coming-soon-page-5cadd051fec04111f7b848da). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
-
-## Table of contents
-
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+# Ping Coming Soon Page
 
 ## Overview
 
-### The challenge
+This project features a "Ping Coming Soon Page," designed to excite and inform visitors about an upcoming website launch. Utilizing HTML, CSS, and JavaScript, this page includes a user-friendly email subscription form with validation, ensuring that users provide a valid email address. Styled with 'Libre Franklin' font from Google Fonts and FontAwesome icons, the page combines modern design with functionality, making it perfect for building anticipation and growing an audience pre-launch.
 
-Users should be able to:
+## Features
 
-- View the optimal layout for the site depending on their device's screen size
-- See hover states for all interactive elements on the page
-- Submit their email address using an `input` field
-- Receive an error message when the `form` is submitted if:
-	- The `input` field is empty. The message for this error should say *"Whoops! It looks like you forgot to add your email"*
-	- The email address is not formatted correctly (i.e. a correct email address should have this structure: `name@host.tld`). The message for this error should say *"Please provide a valid email address"*
+- **Responsive Layout:** Adapts to different device screens, ensuring accessibility and user-friendliness.
+- **Custom Typography:** Employs 'Libre Franklin' for its clear, readable text.
+- **Email Validation:** JavaScript is used to validate the email input, displaying an error message for invalid addresses.
+- **Social Media Icons:** FontAwesome icons link to social media, encouraging users to engage on multiple platforms.
 
-### Screenshot
+## Screenshots
 
-![](./screenshot.jpg)
+![Desktop/Laptop Screens](./screenshots/screenshot-1.png)
 
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
+![Mobile Screens](./screenshots/screenshot-2.png)
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+## Setup
 
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
+To use this component in your project, follow these steps:
 
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+1. **Clone the Repository:**
 
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
-### What I learned
-
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+```bash
+git clone https://github.com/Wilmer856/ping-coming-soon-page.git
 ```
 
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
+2. **Navigate to the Project Directory:**
 
-**Note: Delete this note and the content within this section and replace with your own learnings.**
+```bash
+cd ping-coming-soon-page-master
+```
 
-### Continued development
+3. **Open the `index.html` file in a web browser to view the component.**
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
+## Customization
 
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+- **Content and Images:** Replace the logo and main illustration in the images directory to align with your brand.
+- **Text:** Adjust the headings and paragraph text to fit your message and launch details.
+- **Styling:** Modify the 'style.css' file to tailor the color scheme, fonts, and layout to your preferences.
+- **Functionality:** Enhance the email validation script in index.js or integrate the form with your email marketing service.
 
-### Useful resources
+## Dependencies
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Google Fonts: [Libre Franklin](https://fonts.google.com/specimen/Libre+Franklin) for typography.
+- Font Awesome: Social media icons provided by [FontAwesome](https://fontawesome.com/).
